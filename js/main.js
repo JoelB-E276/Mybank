@@ -8,29 +8,23 @@
       if (httpRequest.readyState === XMLHttpRequest.DONE){
   
           if(httpRequest.status === 200){
-            
-              
+             
             layertxt.innerText = httpRequest.responseText;
+          } else { 
+            console.log("Erreur de chargement");
           }
-          else {
-              
-              console.log("Erreur de chargement");
-          }
-      } 
-      else {
-         
-          console.log("En attente de réponse");
+          } else {
+            console.log("En attente de réponse");
       }
   }
-  
   
   httpRequest.open("GET", "securite.txt", true);
   httpRequest.send();
 
 // Hide the layer after"click" //
 
- hiddenLayer = document.getElementById("butn");
-
+ let hiddenLayer = document.getElementById("butn");
+ let layer = document.getElementById("layer");
  hiddenLayer.addEventListener("click", function(){
     layer.style.display = "none";
   });

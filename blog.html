@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
   <!-- Place favicon.ico in the root directory -->
 
   
@@ -51,41 +52,74 @@
           <a class="nav-link text-white" href="blog.html">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="blog.html">Actualités</a>
+          <a class="nav-link text-white" href="actu.html">Actualités</a>
         </li>
         
       </ul>
     </div>
   </nav>
   <header id="header">
-    <div><img id="imgHead"class="img-fluid"src="img/pinterest_profile_image.png"></div>
+    <div><img id="imgHead"class="img-fluid"src="img/pinterest_profile_image.png" alt="logoMyBank"></div>
   </header>
  
-
-
+<section class="container">
+  <table class="table table-bordered table-dark">
+    <thead>
+      <tr>
+        <th scope="col-2">INFOS</th>
+        <th scope="col-2">Taux d'emprunt</th>
+        <th scope="col-2">CAC 40</th>
+        <th scope="col-2">Encore des infos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">JOUR</th>
+        <td>- 0.7 %</td>
+        <td>- 0.006 %</td>
+        <td>Lorem</td>
+      </tr>
+      <tr>
+        <th scope="row">N -1</th>
+        <td>1.2</td>
+        <td>- 1.004 %</td>
+        <td>Lorem</td>
+      </tr>
+      <tr>
+        <th scope="row">N -2</th>
+        <td>1.9</td>
+        <td>+ 52.021 %</td>
+        <td>Lorem</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
 
   
   <main class="container my-5">
-    
+    <div id="blog">
+        <div id="blogtxt"></div>
+        <div id="title"></div>
+      </div>
   </main>
 
   <footer id="footer" class="container-fluid"> 
     <div class="row">
       <div class="col-md-6">
     <ul>
-      <li href="index.html">Accueil</li>
-      <li href="blog.html">Sécurité</li>
-      <li href="#"></li>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="blog.html">Sécurité</li>
+      <li><a href="actu.html">Actualités</a></li>
     </ul>
   </div>
 </div>
-    <div><img id="imgFooter"class="img-fluid"src="img/pinterest_profile_image.png"></div>
+    <div><img id="imgFooter"class="img-fluid"src="img/pinterest_profile_image.png" alt="logoMyBank"></div>
     <div class="row">
       <div class="col-md-6">
     <ul>
-      <li href="#">Nous joindre</li>
-      <li href="#">Vos agences</li>
-      <li href="#">Distributeurs</li>
+      <li><a href="index.html">Nous joindre</a></li>
+      <li><a href="index.html">Vos agences</a></li>
+      <li><a href="index.html">Distributeurs</a></li>
     </ul>
   </div>
 </div>
@@ -95,7 +129,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
