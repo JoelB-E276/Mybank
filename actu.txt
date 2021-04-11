@@ -1,0 +1,32 @@
+[{"id":"132451","titre":"d\u00e9velopper ","contenu":"d\u00e9veloppement d\u0027application web"},{"id":"132441","titre":"yuuy","contenu":"gj,bn,gvb"},{"id":"132431","titre":"az","contenu":"az"},{"id":"132421","titre":"aaa","contenu":"aaaa"},{"id":"132411","titre":"gg","contenu":"ggg"}]
+<0> 132451 développer développement d'application web <1> 132441 yuuy gj,bn,gvb <2> 132431 az az <3> 132421 aaa aaaa <4> 132411 gg ggg
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <0>
+         <id>132451</id>
+         <titre>développer </titre>
+         <contenu>développement d'application web</contenu>
+     </0>
+     <1>
+         <id>132441</id>
+         <titre>yuuy</titre>
+         <contenu>gj,bn,gvb</contenu>
+     </1>
+     <2>
+         <id>132431</id>
+         <titre>az</titre>
+         <contenu>az</contenu>
+     </2>
+     <3>
+         <id>132421</id>
+         <titre>aaa</titre>
+         <contenu>aaaa</contenu>
+     </3>
+     <4>
+         <id>132411</id>
+         <titre>gg</titre>
+         <contenu>ggg</contenu>
+     </4>
+ </root>
