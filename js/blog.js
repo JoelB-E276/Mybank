@@ -1,4 +1,4 @@
-  
+  // Non Fonctionnel 
   
   let blogtxt = document.getElementById("blogtxt")
   var httpRequest = new XMLHttpRequest();
@@ -11,23 +11,18 @@
             console.log(answerRequest) ; 
             blogtxt.innerText = answerRequest;
             console.log(blogtxt.innerText) ;
-            
-            }
-           
-        } else {
-              
-              console.log("Erreur de chargement");
-          }
-
-      } else {
+             }
+                    
+            } else {
          
           console.log("En attente de réponse");
       }
+    };
   
-  ;
   
-//httpRequest.open("GET", "https://oc-jswebsrv.herokuapp.com/api/articles", true);
-  httpRequest.send();  
+  
+httpRequest.open("GET", "https://oc-jswebsrv.herokuapp.com/api/articles", true);
+httpRequest.send();  
 
 
 
