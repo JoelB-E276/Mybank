@@ -19,17 +19,7 @@ requête HTTP et présentées sous forme de tableau. Ces informations sont stock
 au format JSON.
 - Une page de blog, qui affichera des articles récupérés depuis l’API suivante : https://oc-
 jswebsrv.herokuapp.com/api/articles
-/Optionnel si manque de temps/
-- Sur une page dédiée, un formulaire lui permet de créer un nouveau compte bancaire avec
-minimum un type de compte (courant, livretA, PEL etc...) et une somme par défaut supérieure à 50
-euros
-- Pour chaque compte l’utilisateur peut cliquer sur un lien qui par la suite lui permettra de supprimer
-le compte
-- Pour chaque compte, l’utilisateur peut, via un formulaire faire un dépôt d’argent
-- Pour chaque compte, l’utilisateur peut, via un formulaire faire un retrait d’argent
-- Sur une page dédiée, à l’aide d’un formulaire, l’utilisateur peut réaliser un virement d’un compte à
-un autre. Il peut donc sélectionner un compte A à débiter, indiquer un montant et sélectionner le
-compte B à créditer. Il ne peut sélectionner que ses propres comptes.
+
 Spécifications techniques :
 - HTML5
 - CSS3
@@ -39,7 +29,6 @@ Spécifications techniques :
 - Vous avez produit des maquettes de type wireframe simples pour au moins une des pages
 - Vous avez produit une arborescence fonctionnelle de l’application reprenant les cas d’utilisation
 possible de la page
-- Vos wireframes sont accessibles dans un dossier DOC
 - Votre interface est responsive sur tous les supports
 - Vous respectez le principe DRY
 - Votre code est commenté
