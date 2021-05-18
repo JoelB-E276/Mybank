@@ -5,11 +5,12 @@
      for(let i=0;i<datas.length;i++){
 
     console.log(datas[i].id);
-    let dataId = document.querySelectorAll('main')
+    let dataId = document.getElementById('blog')
     console.log(dataId);
-    dataId.innerHTML += '<div class="card text-center mt-5 sizeArticle"><div class="card-header">'+ datas[i].id 
-    + '</div><div class="card-body"><h5 class="card-title">' + datas[i].titre +'</h5><p class="card-text">'
-    + datas[i].contenu +'</p></div><a class="btn colorButton sizeButton mb-4" href="#">En savoir plus</a></div>';
+    dataId.innerHTML += '<div class="col-md-4"><div class="card" style="widht: 18rem;"><div class="card-body"><h5 class="card-title">'+ datas[i].id + '</h5><h6 class="cardsubtitle mb-2 text-muted">' + datas[i].titre +'</h6><p class="card-text">'+ datas[i].contenu +'</p></div></div></div></div>'; 
+
+    
+    
 }
      }
   
